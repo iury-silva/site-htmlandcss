@@ -34,7 +34,7 @@ h2{
 #navbar img{
 
     height: 38px;
-    transform: rotate(30deg);
+    transform: rotate(0deg);
     position: absolute;
     top: 10px;
 }
@@ -59,13 +59,13 @@ h2{
 #navbar-list li a{
 
     text-decoration: none;
-    color: aliceblue;
+    color: #9806ac;
 }
 
 #navbar-list li a:hover{
 
     --b: 0.1em;   /* the thickness of the line */
-    --c: #9806ac; /* the color */
+    --c: aliceblue; /* the color */
     
     color: #0000;
     padding-block: var(--b);
@@ -104,20 +104,22 @@ h2{
 
   }
 
+ 
  #Banner-info{
 
-    width: 40%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: aliceblue;
-    padding: 50px;
+    padding: 100px;
     
 } 
 
 #Banner-info img{
 
-    height: 120px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background-color: #C850C0;
     margin-top: 30px;
@@ -135,14 +137,244 @@ h2{
 
 }
 
-#About-section{
+
+
+#about{
 
     text-align: center;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     color: aliceblue;
-    padding-top: 50px;
-    height: 350px;
+    padding-top: 70px;
+    height: 1000px;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+#about h2{
+
+    margin-bottom: 25px;
 
 }
-/*dsdsdasdasdasdasdsad*/
+
+#about p{
+
+    font-size: 20px;
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#skills-section{
+
+    padding-top: -100px;
+    margin-top: -800px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    /* From https://css.glass */
+background: rgba(226, 153, 192, 0.28);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.8px);
+-webkit-backdrop-filter: blur(6.8px);
+/* From https://css.glass */
+background: rgba(226, 153, 192, 0.28);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.8px);
+-webkit-backdrop-filter: blur(6.8px);
+
+}
+
+#skills-section .flex{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+ 
+}
+
+.flex{
+
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px 25px;
+    
+}
+
+.central{
+
+    
+    border-left: 10px solid #ddd;
+    border-right: 10px solid #ddd;
+    padding: 0px 60px;
+}
+
+.container h3{
+    font-size: 25px;
+    color: aliceblue;
+
+}
+
+.container img{
+
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 4px solid #ddd;
+    border-right: 4px solid #ddd;
+}
+
+#skills-section .subtitle{
+
+    font-size: 25px;
+    font-weight: bold;
+    color: #ddd;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.flex{
+
+     line-height: 40px;   
+
+}
+
+.flex h3{
+     
+    background-color: #C850C0;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 4px solid #ddd;
+    border-bottom: 4px solid #ddd;
+    border-radius: 10px;
+
+}
+
+.flex p{
+
+    font-size: 20px;
+}
+
+#jobs-section{
+
+    text-align: center;
+    background: rgba(226, 153, 192, 0.28);
+border-radius: 0px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.8px);
+-webkit-backdrop-filter: blur(6.8px);
+/* From https://css.glass */
+background: rgba(226, 153, 192, 0.28);
+border-radius: 0px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.8px);
+-webkit-backdrop-filter: blur(6.8px);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-top: 90px;
+}
+
+#jobs-section h2{
+
+    color: #9806ac;
+    margin-bottom: 30px;
+}   
+
+#jobs-section p{
+    
+    margin-bottom: 50px;
+
+}
+
+#jobs-section a{
+
+    font-weight: bold;
+    color: #9806ac;
+}
+
+.job-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.job-box {
+
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    border-right: 2px solid #9806ac;
+    border-bottom: 2px solid #9806ac;
+}
+
+.proj1{
+
+    background-image: url('../site-bala/img/foto1.png');
+}
+.proj2{
+
+    background-image: url('../site-bala/img/foto2.png');
+}
+.proj3{
+
+    background-image: url('../site-bala/img/foto3.png');
+}
+
+footer{
+
+    margin-top: -10px;
+    padding: 50px 0;
+    border-top: 5px solid #000;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: aliceblue;
+    text-align: center;
+
+}
+
+footer img{
+
+    height: 50px;
+    margin: 30px 0;
+}
+
+footer p{
+    margin-top: 25px;
+}
+
+footer form{
+
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea{
+
+    border:none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+footer .detail{
+
+
+    font-weight: bold;
+}
+
+@media(max-width: 450px){
+
+
+}
