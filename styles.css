@@ -1,0 +1,136 @@
+body, p, h2, h1, textarea, input{
+
+    margin: 0%;
+    font-family: Kanit;
+
+}
+
+h2{
+    font-size: 30px;
+}
+
+#navbar{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: aliceblue;
+    padding: 0 15px;
+    height: 60px;
+
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav{
+
+    display:inline-block;
+
+}
+
+#navbar h2{
+
+    margin: 0%;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img{
+
+    height: 38px;
+    transform: rotate(30deg);
+    position: absolute;
+    top: 10px;
+}
+
+#navbar nav{
+
+    float: right;
+ 
+   
+}
+
+#navbar ul{
+    margin-top: 22px;
+}
+
+#navbar li{
+
+    margin: 0 10px;
+
+}
+
+#navbar-list li a{
+
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#navbar-list li a:hover{
+
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #9806ac; /* the color */
+    
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .2s var(--_s,0s) linear,background-size .2s calc(.2s - var(--_s,0s));
+  }
+#navbar-list li a:hover{
+    --_p: 100%;
+    --_s: .2s;
+  }
+  #navbar-list  {
+    height: 22px;
+    margin: 0;
+    display: grid;
+    place-content: center;
+  }
+ #navbar-list {
+    font-family: kanit;
+    margin:0;
+    cursor: pointer;
+    padding: 0 .1em;
+  }
+
+  /* BANNER */
+
+  #main-banner{
+
+    height: 70vh;
+    background-image: url('img/backgroundp.png');
+    background-size: cover;
+    padding-top: 15vh;
+
+  }
+
+ #Banner-info{
+
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: aliceblue;
+    padding: 50px;
+    
+} 
+
+#Banner-info img{
+
+    height: 120px;
+    border-radius: 50%;
+    background-color: #C850C0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#Banner-info p{
+    
+    background-color: #C850C0;
+    font-weight: bold;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+
+}
