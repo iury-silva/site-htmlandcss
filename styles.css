@@ -15,7 +15,7 @@ h2{
     color: aliceblue;
     padding: 0 15px;
     height: 60px;
-
+    border-bottom: 1px solid #000;
 }
 
 #navbar h2, #navbar ul, #navbar-list li, #navbar nav{
