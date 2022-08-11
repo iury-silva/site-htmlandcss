@@ -28,7 +28,7 @@ h2{
 
     margin: 0%;
     line-height: 60px;
-    margin-left: 55px;
+    margin-left: 78px;
 }
 
 #navbar img{
@@ -130,11 +130,13 @@ h2{
 
 #sobremim p{
 
-        
-        font-size: 30px;
+        height: 250px;
+        width: 600px;
+        font-size: 40px;
+        font-weight: 200;
         margin-top: -600px;
         margin-bottom: 100px;
-        margin-right: 200px;
+        margin-right: 300px;
         text-align: center;
         color: aliceblue;
         background: rgba(226, 153, 192, 0.28);
