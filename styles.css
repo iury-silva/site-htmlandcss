@@ -103,7 +103,7 @@ h2{
     background-image: url('img/backgroundp.png');
     background-size: cover;
     padding-top: 19vh;
-    padding-bottom: 19vh;
+    padding-bottom: 50vh;
 
   }
 
@@ -111,11 +111,11 @@ h2{
  #Banner-info{
 
     width: 20%;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-right: auto;
     text-align: center;
     color: aliceblue;
-    padding: 100px;
+    padding: -100px;
     
 } 
 
@@ -134,9 +134,9 @@ h2{
         width: 600px;
         font-size: 40px;
         font-weight: 200;
-        margin-top: -600px;
-        margin-bottom: 100px;
-        margin-right: 300px;
+        margin-top: -550px;
+        margin-bottom: -100px;
+        margin-right: 100px;
         text-align: center;
         color: aliceblue;
         background: rgba(226, 153, 192, 0.28);
@@ -170,10 +170,10 @@ h2{
     background-color: #C850C0;
     font-weight: bold;
     width: 200px;
-    margin-left: auto;
+    margin-left: 35px;
     margin-right: auto;
     padding: 15px;
-
+    
 }
 
 
@@ -184,15 +184,19 @@ h2{
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     color: aliceblue;
-    padding-top: 70px;
+    padding-top: 10px;
     height: 1000px;
     border-bottom: 5px solid rgb(0, 0, 0);
+    
 }
 
 #about h2{
-
-    margin-bottom: 25px;
-
+    
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding-bottom: -100px;
 }
 
 #about p{
@@ -201,6 +205,13 @@ h2{
     max-width: 750px;
     margin-right: auto;
     margin-left: auto;
+    
+}
+
+#about p, h2{
+
+    padding-top: -600px;
+
 }
 
 #skills-section{
@@ -209,7 +220,7 @@ h2{
     margin-top: -800px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     /* From https://css.glass */
 background: rgba(226, 153, 192, 0.28);
 border-radius: 16px;
@@ -236,16 +247,18 @@ backdrop-filter: blur(6.8px);
 
     flex: 1 1 1;
     text-align: center;
-    padding: 60px 25px;
+    padding: 55px 25px;
     
 }
 
 .central{
 
     
-    border-left: 10px solid #ddd;
-    border-right: 10px solid #ddd;
-    padding: 0px 60px;
+    border-left: 5px solid #ddd;
+    border-right: 5px solid #ddd;
+    padding: 5px 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .container h3{
@@ -312,7 +325,7 @@ backdrop-filter: blur(6.8px);
 -webkit-backdrop-filter: blur(6.8px);
     padding-bottom: 100px;
     padding-top: 100px;
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 #jobs-section h2{
@@ -357,15 +370,15 @@ backdrop-filter: blur(6.8px);
 
 .proj1{
 
-    background-image: url('../site-bala/img/foto1.png');
+    background-image: url('../html/img/foto1.png');
 }
 .proj2{
 
-    background-image: url('../site-bala/img/foto2.png');
+    background-image: url('../html/img/foto2.png');
 }
 .proj3{
 
-    background-image: url('../site-bala/img/foto3.png');
+    background-image: url('../html/img/foto3.png');
 }
 
 footer{
@@ -414,6 +427,58 @@ footer .detail{
 }
 
 @media(max-width: 450px){
+
+p, input, textarea{
+
+    font-size: 1.2rem;
+}
+
+#navbar h2 {
+
+    display: none;
+
+}
+
+#navbar img {
+
+    top: 9px;
+}
+
+#navbar ul{
+
+    margin-top: 1.1rem;
+
+}
+
+#navbar-list li a {
+    font-size: 1.2rem;
+
+}
+
+#main-banner {
+
+    height: 40vh;
+    padding-top: 0vh;
+    padding-bottom: 10vh;
+}
+
+#banner-info {
+
+    width: 10%;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    
+}
+
+#banner-info p {
+
+    margin: 0;
+    width: auto;
+
+}
+
 
 
 }
